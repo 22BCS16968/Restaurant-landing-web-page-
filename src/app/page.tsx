@@ -323,9 +323,9 @@ export default function Home() {
                 different regions of India to create an unforgettable dining experience.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Located in the heart of Mumbai's Bandra district, we pride ourselves on preserving the authentic flavors
+                {`Located in the heart of Mumbai's Bandra district, we pride ourselves on preserving the authentic flavors
                 of Indian cuisine while creating a warm, welcoming atmosphere. From North Indian tandoor specialties to
-                South Indian delicacies, every dish tells a story.
+                South Indian delicacies, every dish tells a story.`}
               </p>
               <div className="flex items-center text-gray-700">
                 <span className="text-orange-600 mr-2">🕐</span>
@@ -505,8 +505,8 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Visit Us</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're located in the heart of Mumbai's Bandra district. Come experience authentic Indian cuisine and warm
-              hospitality.
+              {`We're located in the heart of Mumbai's Bandra district. Come experience authentic Indian cuisine and warm
+              hospitality.`}
             </p>
           </div>
 
